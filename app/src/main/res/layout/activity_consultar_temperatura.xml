@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margemAtividades"
+    android:orientation="vertical"
+    tools:context=".ConsultarTemperaturaActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/corTextoConsulta"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/paddingLabels"
+        android:text="@string/fahrenheit"
+        android:textColor="@color/corTextoLabels"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewFahrenheit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:autoText="false"
+        android:background="@color/corInputs"
+        android:gravity="center|center_vertical"
+        android:padding="@dimen/paddingLabels"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textoGrande"
+        tools:text="123.0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margemAtividades"
+        android:background="@color/corTextoConsulta"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/paddingCaixasTexto"
+        android:text="@string/celsius"
+        android:textColor="@color/corTextoLabels"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewCelsius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/corInputs"
+        android:gravity="center_horizontal|center_vertical"
+        android:padding="@dimen/paddingCaixasTexto"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textoGrande"
+        tools:text="123.0" />
+</LinearLayout>
