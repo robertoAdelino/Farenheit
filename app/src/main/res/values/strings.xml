@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Conversor de Temperatura</string>
-    <string name="temperatura">Temperatura</string>
-    <string name="Unidade">Unidade</string>
+    <string name="app_name">Temperature conversion</string>
+    <string name="temperatura">Temperature</string>
+    <string name="Unidade">Units</string>
     <string name="fahrenheit">Fahrenheit</string>
     <string name="celsius">Celsius</string>
-    <string name="converter">Converter</string>
+    <string name="converter">Convert</string>
 </resources>
