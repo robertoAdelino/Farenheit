@@ -14,7 +14,7 @@ public class ConsultarTemperaturaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_consultar_temperatura);
 
        Intent intent= getIntent();
-       double temperatura = intent.getDoubleExtra("TEMPERATURA",0.0);
+       double temperatura = intent.getDoubleExtra(MainActivity.TEMPERATURA,0.0);
        TextView textViewCelsius=  findViewById(R.id.textViewCelsius);
 
        textViewCelsius.setText(String.valueOf(temperatura));

@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
+    public static  final String TEMPERATURA = "TEMPERATURA";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         Intent intent= new Intent(this, ConsultarTemperaturaActivity.class);
-        intent.putExtra("TEMPERATURA",temperatura);
+        intent.putExtra(TEMPERATURA,temperatura);
         startActivity(intent);
     }
 }
