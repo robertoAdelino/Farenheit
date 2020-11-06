@@ -4,6 +4,6 @@
     <string name="temperatura">Temperatura</string>
     <string name="Unidade">Unidads</string>
     <string name="fahrenheit">Fahrenheit</string>
-    <string name="celsius">Cesius</string>
+    <string name="celsius">Celsius</string>
     <string name="converter">Converter</string>
 </resources>
