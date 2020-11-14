@@ -6,4 +6,6 @@
     <string name="fahrenheit">Fahrenheit</string>
     <string name="celsius">Celsius</string>
     <string name="converter">Converter</string>
+    <string name="insira_temperatura_validda">Introduza uma temperatura válida</string>
+    <string name="indique_unidades">Indique as unidades da temperatura</string>
 </resources>

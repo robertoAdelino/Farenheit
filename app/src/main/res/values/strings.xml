@@ -5,4 +5,6 @@
     <string name="fahrenheit">Fahrenheit</string>
     <string name="celsius">Celsius</string>
     <string name="converter">Convert</string>
+    <string name="insira_temperatura_validda">Please enter a valid temperature</string>
+    <string name="indique_unidades">Please specify a temperature</string>
 </resources>
